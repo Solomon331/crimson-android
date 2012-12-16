@@ -1,0 +1,20 @@
+LOCAL_PATH := $(call my-dir)
+
+include $(CLEAR_VARS)
+
+LOCAL_MODULE := ROCKET
+
+LOCAL_C_INCLUDES := $(LOCAL_PATH)/Include
+LOCAL_C_INCLUDES += /home/ryan/DevLibrary/freetype2-android/include
+LOCAL_C_INCLUDES += /home/ryan/DevLibrary/freetype2-android/include/freetype
+
+LOCAL_SRC_FILES := \
+	$(subst $(LOCAL_PATH)/,, \
+	$(wildcard $(LOCAL_PATH)/Source/*.cpp) \
+	$(wildcard $(LOCAL_PATH)/Source/Core/*.cpp) \
+	$(wildcard $(LOCAL_PATH)/Source/Controls/*.cpp)) \
+
+LOCAL_CFLAGS += -DGL_GLEXT_PROTOTYPES
+LOCAL_LDLIBS := -ldl -lGLESv1_CM -lGLESv2 -llog
+
+include $(BUILD_STATIC_LIBRARY)
