@@ -25,7 +25,7 @@ OBJ_BUILD ?= $(BUILD_DIR)
 
 # don't use `:=' here since the path stuff will be included after this file
 #
-FTSYS_SRC = $(BUILD_DIR)/ftsystem.c
+FTSYS_SRC = $(BASE_DIR)/ftsystem.c
 
 INSTALL         := /usr/bin/install -c
 INSTALL_DATA    := ${INSTALL} -m 644
@@ -47,7 +47,7 @@ DISTCLEAN += $(OBJ_BUILD)/config.cache    \
 
 # Standard installation variables.
 #
-prefix       := /usr/local
+prefix       := /opt/android-ext
 exec_prefix  := ${prefix}
 libdir       := ${exec_prefix}/lib
 bindir       := ${exec_prefix}/bin
@@ -73,7 +73,7 @@ ftmac_c :=
 # The SYSTEM_ZLIB macro is defined if the user wishes to link dynamically
 # with its system wide zlib. If SYSTEM_ZLIB is 'yes', the zlib part of the
 # ftgzip module is not compiled in.
-SYSTEM_ZLIB := yes
+SYSTEM_ZLIB := 
 
 
 # The NO_OUTPUT macro is appended to command lines in order to ignore

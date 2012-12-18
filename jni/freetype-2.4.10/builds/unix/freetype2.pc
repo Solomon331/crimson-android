@@ -1,4 +1,4 @@
-prefix=/usr/local
+prefix=/opt/android-ext
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -8,5 +8,5 @@ Description: A free, high-quality, and portable font engine.
 Version: 15.0.9
 Requires:
 Libs: -L${libdir} -lfreetype
-Libs.private: -lz -lbz2 
+Libs.private:   
 Cflags: -I${includedir}/freetype2 -I${includedir}

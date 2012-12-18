@@ -12,7 +12,7 @@
 # fully.
 
 
-CC           := gcc
+CC           := arm-linux-androideabi-gcc
 COMPILER_SEP := $(SEP)
 FT_LIBTOOL_DIR ?= $(BUILD_DIR)
 
@@ -79,7 +79,7 @@ T := -o$(space)
 #   We use our own FreeType configuration file.
 #
 CPPFLAGS := 
-CFLAGS   := -c -Wall -g -O2 -DFT_CONFIG_OPTION_SYSTEM_ZLIB -DFT_CONFIG_OPTION_USE_BZIP2 -DFT_CONFIG_CONFIG_H="<ftconfig.h>"
+CFLAGS   := -c -Wall -g -O2 -DFT_CONFIG_CONFIG_H="<ftconfig.h>"
 
 # ANSIFLAGS: Put there the flags used to make your compiler ANSI-compliant.
 #
@@ -93,7 +93,7 @@ CC    := $(LIBTOOL) --mode=compile $(CCraw)
 
 # Linker flags.
 #
-LDFLAGS :=  -lz -lbz2
+LDFLAGS := 
 
 
 # export symbols

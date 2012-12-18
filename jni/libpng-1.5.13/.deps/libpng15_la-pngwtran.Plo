@@ -1,0 +1,151 @@
+libpng15_la-pngwtran.lo: pngwtran.c pngpriv.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/stdlib.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/cdefs.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/cdefs_elf.h \
+ /home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/string.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/malloc.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/alloca.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/strings.h \
+ /home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/sys/types.h \
+ /home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/stdint.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/_types.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/_types.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/posix_types.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/stddef.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/compiler.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/asm/posix_types.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/asm/types.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/types.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/kernel.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/sysmacros.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/memory.h \
+ png.h pnglibconf.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/setjmp.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/setjmp.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/time.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/time.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/time.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/asm/siginfo.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/asm-generic/siginfo.h \
+ pngconf.h \
+ /home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h \
+ /home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/limits.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/limits.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/limits.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/internal_types.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/limits.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/syslimits.h \
+ /home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h \
+ /home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h \
+ pnginfo.h pngstruct.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/zlib.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/zconf.h \
+ config.h \
+ /home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include/float.h \
+ /home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/math.h \
+ pngdebug.h
+
+pngpriv.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/stdlib.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/cdefs_elf.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stddef.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/string.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/malloc.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/alloca.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/strings.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/sys/types.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdint.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/stdint.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/_types.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/_types.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/asm/types.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/types.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/kernel.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/sysmacros.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/memory.h:
+
+png.h:
+
+pnglibconf.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/setjmp.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/setjmp.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/time.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/time.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/time.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/asm/siginfo.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/asm-generic/siginfo.h:
+
+pngconf.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/limits.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/syslimits.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/limits.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/limits.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/linux/limits.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/internal_types.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/machine/limits.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/sys/syslimits.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include-fixed/stdio.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include/stdarg.h:
+
+pnginfo.h:
+
+pngstruct.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/zlib.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/zconf.h:
+
+config.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../lib/gcc/arm-linux-androideabi/4.6/include/float.h:
+
+/home/ryan/DevLibrary/android-ext/bin/../sysroot/usr/include/math.h:
+
+pngdebug.h:
