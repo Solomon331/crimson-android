@@ -60,7 +60,8 @@ public class SDLActivity extends Activity {
         System.loadLibrary("SDL2_image");
         //System.loadLibrary("SDL2_mixer");
         //System.loadLibrary("SDL2_ttf");
-        System.loadLibrary("main");
+	System.loadLibrary("tcod");        
+	System.loadLibrary("main");
     }
 
     // Setup
@@ -594,12 +595,12 @@ class SDLSurface extends SurfaceView implements SurfaceHolder.Callback,
     public boolean onKey(View  v, int keyCode, KeyEvent event) {
 
         if (event.getAction() == KeyEvent.ACTION_DOWN) {
-            //Log.v("SDL", "key down: " + keyCode);
+            Log.v("SDL", "key down: " + keyCode);
             SDLActivity.onNativeKeyDown(keyCode);
             return true;
         }
         else if (event.getAction() == KeyEvent.ACTION_UP) {
-            //Log.v("SDL", "key up: " + keyCode);
+            Log.v("SDL", "key up: " + keyCode);
             SDLActivity.onNativeKeyUp(keyCode);
             return true;
         }
